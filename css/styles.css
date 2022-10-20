@@ -389,7 +389,7 @@ ul {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button-border {
+.modal-icon {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -397,11 +397,13 @@ ul {
     display: flex;
     justify-content: center;
     align-items:center;
+    padding: 8.5px;
 
     height: 30px;
     width: 30px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    fill: var(--decoration-color);
 }
 
 .modal-button {
@@ -417,10 +419,6 @@ ul {
     background-color: transparent;
 
     cursor: pointer;
-}
-
-.modal-icon {
-    fill: var(--decoration-color);
 }
 
 /* features */
